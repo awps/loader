@@ -33,7 +33,7 @@ This will autoload all php files from `$path` that contains `$pattern` in their 
 ### Examples
 ```php
 // Autoload classes from `inc` folder and set the namespace to `Awesome`
-Awps\Loader::loadClasses( __DIR__ . 'engine', 'Crux' );
+Awps\Loader::loadClasses( __DIR__ . 'inc', 'Awesome' );
 
 // Now you can initialize a class. For example: 
 new Awesome\Something();
