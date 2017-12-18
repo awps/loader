@@ -3,6 +3,7 @@
   "description": "Simple loader that is designed to work with both classes and normal PHP files.",
   "type": "library",
   "license": "GPL-3.0+",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Andrei Surdu",
